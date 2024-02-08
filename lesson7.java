@@ -1,6 +1,5 @@
 import java.util.*;
 public class lesson7 {
-
     public static void main(String[] args) {
         String[] words = {"one", "two", "two", "three", "five", "five", "six", "seven", "four", "nine"};
 
