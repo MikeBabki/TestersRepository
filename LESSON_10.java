@@ -1,15 +1,11 @@
 import java.util.ArrayList;
-
 class Fruit {
-    // родительский класс для фруктов
 }
 
 class Apple extends Fruit {
-    // класс для яблок
 }
 
 class Orange extends Fruit {
-    // класс для апельсинов
 }
 
 class Box<T extends Fruit> {
@@ -23,7 +19,6 @@ class Box<T extends Fruit> {
         if (fruits.isEmpty()) {
             return 0;
         }
-
         float weight = 0;
         for (T fruit : fruits) {
             if (fruit instanceof Apple) {
@@ -51,7 +46,6 @@ class Box<T extends Fruit> {
         fruits.clear();
     }
 }
-
 public class LESSON_10 {
     public static void main(String[] args) {
         Box<Apple> appleBox1 = new Box<>();
